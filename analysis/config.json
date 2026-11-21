@@ -1,0 +1,6 @@
+{
+  "gate_delays": {"AND": 1, "OR": 1, "XOR": 2},
+  "gate_areas": {"AND": 1.0, "OR": 1.0, "XOR": 1.5},
+  "random_seed": 324508639,
+  "random_tests": 10000
+}

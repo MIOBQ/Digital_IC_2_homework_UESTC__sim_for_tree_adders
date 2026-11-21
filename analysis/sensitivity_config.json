@@ -1,0 +1,29 @@
+{
+  "baseline_delays": {"AND": 1.0, "OR": 1.0, "XOR": 2.0},
+  "xor_values": [1.0, 1.5, 2.0, 2.5, 3.0, 4.0],
+  "and_values": [0.5, 0.75, 1.0, 1.25, 1.5, 2.0],
+  "or_values": [0.5, 0.75, 1.0, 1.25, 1.5, 2.0],
+  "grid": {
+    "AND": [0.75, 1.0, 1.25, 1.5],
+    "OR": [0.75, 1.0, 1.25, 1.5],
+    "XOR": [1.0, 1.5, 2.0, 2.5, 3.0]
+  },
+  "expected_baseline_delays": {
+    "RCA": 32.0,
+    "Kogge-Stone": 11.0,
+    "Brent-Kung": 16.0,
+    "Sparse-2": 13.0,
+    "Sparse-4": 17.0,
+    "Sparse-8": 24.0,
+    "Han-Carlson": 13.0
+  },
+  "expected_gate_counts": {
+    "RCA": 77,
+    "Kogge-Stone": 179,
+    "Brent-Kung": 110,
+    "Sparse-2": 128,
+    "Sparse-4": 113,
+    "Sparse-8": 112,
+    "Han-Carlson": 128
+  }
+}

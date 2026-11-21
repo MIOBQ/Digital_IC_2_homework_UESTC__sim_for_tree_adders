@@ -1,0 +1,173 @@
+Reading D:/CourseTools/MicroEmbedded_Toolchain/ModelSim/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.3c
+
+# do {C:\Users\Lenovo\Desktop\Tree_Adder\sim\run_kogge_stone.do}
+# C:/Users/Lenovo/Desktop/Tree_Adder
+# C:/Users/Lenovo/Desktop/Tree_Adder/sim
+# C:/Users/Lenovo/Desktop/Tree_Adder/rtl/kogge_stone16.v
+# C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_kogge_stone16.v
+# C:/Users/Lenovo/Desktop/Tree_Adder/sim/work_kogge_stone
+# C:/Users/Lenovo/Desktop/Tree_Adder/docs/kogge_stone_simulation.log
+# reading modelsim.ini
+# 
+# if {[file isdirectory $work_dir]} {
+#     vdel -lib $work_dir -all
+# }
+# vlib $work_dir
+# vmap work $work_dir
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work C:/Users/Lenovo/Desktop/Tree_Adder/sim/work_kogge_stone 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat $rtl_file $tb_file
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 12:02:06 on Nov 21,2026
+# vlog -vlog01compat C:/Users/Lenovo/Desktop/Tree_Adder/rtl/kogge_stone16.v C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_kogge_stone16.v 
+# -- Compiling module ks_prefix_cell
+# -- Compiling module kogge_stone16
+# -- Compiling module tb_kogge_stone16
+# 
+# Top level modules:
+# 	tb_kogge_stone16
+# End time: 12:02:07 on Nov 21,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim work.tb_kogge_stone16
+# vsim -c -do "do {C:\Users\Lenovo\Desktop\Tree_Adder\sim\run_kogge_stone.do}" 
+# Start time: 12:02:07 on Nov 21,2026
+# Loading work.tb_kogge_stone16
+# Loading work.kogge_stone16
+# Loading work.ks_prefix_cell
+# 
+# set prefix_count 0
+# 0
+# set stage1_count 0
+# 0
+# set stage2_count 0
+# 0
+# set stage3_count 0
+# 0
+# set stage4_count 0
+# 0
+# set design_instances [find instances -recursive /tb_kogge_stone16/dut/*]
+# /tb_kogge_stone16/dut/stage3[5]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[7]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[9]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage3[9]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[11]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage4[10]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[15]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage4[14]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[10]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[2]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[4]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[14]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage3[13]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[6]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage3[6]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[8]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage4[8]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[12]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage4[11]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage4[15]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[11]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage3[10]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[3]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[5]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[15]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage3[14]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[7]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage3[7]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[9]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage4[9]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[13]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage4[12]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[2]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[12]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage3[11]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[4]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage3[4]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[6]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage3[15]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[8]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage3[8]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[10]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[14]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage4[13]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[1]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage2[3]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[13]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage3[12]/prefix/u_prefix (ks_prefix_cell)
+# /tb_kogge_stone16/dut/stage1[5]/prefix/u_prefix (ks_prefix_cell)
+# foreach instance_name $design_instances {
+#     if {[string match "*/u_prefix*" $instance_name]} {
+#         incr prefix_count
+#     }
+#     if {[string match "*/stage1*/u_prefix*" $instance_name]} {incr stage1_count}
+#     if {[string match "*/stage2*/u_prefix*" $instance_name]} {incr stage2_count}
+#     if {[string match "*/stage3*/u_prefix*" $instance_name]} {incr stage3_count}
+#     if {[string match "*/stage4*/u_prefix*" $instance_name]} {incr stage4_count}
+# }
+# puts "KOGGE_STONE_STAGE_COUNTS=$stage1_count,$stage2_count,$stage3_count,$stage4_count"
+KOGGE_STONE_STAGE_COUNTS=15,14,12,8
+# puts "KOGGE_STONE_PREFIX_CELL_COUNT=$prefix_count"
+KOGGE_STONE_PREFIX_CELL_COUNT=49
+# 
+# if {$stage1_count != 15 || $stage2_count != 14 ||
+#     $stage3_count != 12 || $stage4_count != 8 || $prefix_count != 49} {
+#     puts stderr "KOGGE_STONE_STRUCTURE_FAIL expected=15,14,12,8/49 actual=$stage1_count,$stage2_count,$stage3_count,$stage4_count/$prefix_count"
+#     quit -code 3 -f
+# }
+# puts "KOGGE_STONE_STRUCTURE_PASS expected=49 actual=$prefix_count"
+KOGGE_STONE_STRUCTURE_PASS expected=49 actual=49
+# 
+# proc finish_with_test_status {} {
+#     set run_state [runStatus]
+#     set run_detail [runStatus -full]
+#     puts "MODELSIM_RUN_STATUS=$run_state"
+#     puts "MODELSIM_RUN_STATUS_FULL=$run_detail"
+# 
+#     if {$run_state == "error" ||
+#         [string match "*fatal_error*" $run_detail] ||
+#         [string match "*iteration_limit*" $run_detail] ||
+#         [string match "*gate_oscillation*" $run_detail]} {
+#         puts stderr "MODELSIM_SIMULATION_ERROR"
+#         quit -code 2 -f
+#     }
+# 
+#     if {[catch {examine -radix decimal /tb_kogge_stone16/error_count} error_count]} {
+#         puts stderr "MODELSIM_ERROR_COUNT_READ_FAILED=$error_count"
+#         quit -code 2 -f
+#     }
+# 
+#     puts "MODELSIM_ERROR_COUNT=$error_count"
+# 
+#     if {$error_count == 0} {
+#         set exit_code 0
+#         puts "MODELSIM_EXIT_CODE=0"
+#     } else {
+#         set exit_code 1
+#         puts "MODELSIM_EXIT_CODE=1"
+#     }
+# 
+#     quit -code $exit_code -f
+# }
+# 
+# onbreak {finish_with_test_status}
+# onfinish stop
+# run -all
+# KOGGE_STONE16_TEST_START
+# DIRECTED_TESTS_COMPLETE count=12 errors=0
+# RANDOM_TESTS_COMPLETE count=10000
+# KOGGE_STONE16_TEST_SUMMARY total=10012 errors=0
+# KOGGE_STONE16_TEST_PASS
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_kogge_stone16.v(79)
+#    Time: 10012 ns  Iteration: 0  Instance: /tb_kogge_stone16
+# Break in Module tb_kogge_stone16 at C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_kogge_stone16.v line 79
+MODELSIM_RUN_STATUS=break
+MODELSIM_RUN_STATUS_FULL=break simulation_stop {$finish}
+MODELSIM_ERROR_COUNT=0
+MODELSIM_EXIT_CODE=0
+# End time: 12:02:08 on Nov 21,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

@@ -1,0 +1,245 @@
+Reading D:/CourseTools/MicroEmbedded_Toolchain/ModelSim/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.3c
+
+# do {C:\Users\Lenovo\Desktop\Tree_Adder\sim\run_all.do}
+# C:/Users/Lenovo/Desktop/Tree_Adder
+# C:/Users/Lenovo/Desktop/Tree_Adder/sim
+# C:/Users/Lenovo/Desktop/Tree_Adder/sim/regression_build
+# C:/Users/Lenovo/Desktop/Tree_Adder/docs/all_adders_regression.log
+# 0
+# reading modelsim.ini
+# 
+# file mkdir $build_dir
+# set libraries {rca_lib ks_lib bk_lib sparse2_lib sparse4_lib sparse8_lib hc_lib regression_work}
+# rca_lib ks_lib bk_lib sparse2_lib sparse4_lib sparse8_lib hc_lib regression_work
+# foreach lib $libraries {
+#     set lib_dir [file join $build_dir $lib]
+#     if {[file isdirectory $lib_dir]} {vdel -lib $lib_dir -all}
+#     vlib $lib_dir
+#     vmap $lib $lib_dir
+# }
+# 
+# vlog -vlog01compat -work rca_lib     [file join $project_dir rtl rca16.v]
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:17:34 on Nov 21,2026
+# vlog -vlog01compat -work rca_lib C:/Users/Lenovo/Desktop/Tree_Adder/rtl/rca16.v 
+# -- Compiling module rca16
+# 
+# Top level modules:
+# 	rca16
+# End time: 13:17:34 on Nov 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work ks_lib      [file join $project_dir rtl kogge_stone16.v]
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:17:34 on Nov 21,2026
+# vlog -vlog01compat -work ks_lib C:/Users/Lenovo/Desktop/Tree_Adder/rtl/kogge_stone16.v 
+# -- Compiling module ks_prefix_cell
+# -- Compiling module kogge_stone16
+# 
+# Top level modules:
+# 	kogge_stone16
+# End time: 13:17:34 on Nov 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work bk_lib      [file join $project_dir rtl brent_kung16.v]
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:17:34 on Nov 21,2026
+# vlog -vlog01compat -work bk_lib C:/Users/Lenovo/Desktop/Tree_Adder/rtl/brent_kung16.v 
+# -- Compiling module bk_black_cell
+# -- Compiling module bk_gray_cell
+# -- Compiling module brent_kung16
+# 
+# Top level modules:
+# 	brent_kung16
+# End time: 13:17:34 on Nov 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work sparse2_lib [file join $project_dir rtl sparse2_16.v]
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:17:34 on Nov 21,2026
+# vlog -vlog01compat -work sparse2_lib C:/Users/Lenovo/Desktop/Tree_Adder/rtl/sparse2_16.v 
+# -- Compiling module sparse2_prefix_cell
+# -- Compiling module sparse2_16
+# 
+# Top level modules:
+# 	sparse2_16
+# End time: 13:17:34 on Nov 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work sparse4_lib [file join $project_dir rtl sparse4_16.v]
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:17:34 on Nov 21,2026
+# vlog -vlog01compat -work sparse4_lib C:/Users/Lenovo/Desktop/Tree_Adder/rtl/sparse4_16.v 
+# -- Compiling module sparse4_prefix_cell
+# -- Compiling module sparse4_local_carry_cell
+# -- Compiling module sparse4_16
+# 
+# Top level modules:
+# 	sparse4_16
+# End time: 13:17:34 on Nov 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work sparse8_lib [file join $project_dir rtl sparse8_16.v]
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:17:34 on Nov 21,2026
+# vlog -vlog01compat -work sparse8_lib C:/Users/Lenovo/Desktop/Tree_Adder/rtl/sparse8_16.v 
+# -- Compiling module sparse8_prefix_cell
+# -- Compiling module sparse8_local_carry_cell
+# -- Compiling module sparse8_16
+# 
+# Top level modules:
+# 	sparse8_16
+# End time: 13:17:34 on Nov 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work hc_lib      [file join $project_dir rtl han_carlson16.v]
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:17:34 on Nov 21,2026
+# vlog -vlog01compat -work hc_lib C:/Users/Lenovo/Desktop/Tree_Adder/rtl/han_carlson16.v 
+# -- Compiling module hc_black_cell
+# -- Compiling module hc_gray_cell
+# -- Compiling module han_carlson16
+# 
+# Top level modules:
+# 	han_carlson16
+# End time: 13:17:34 on Nov 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work regression_work [file join $project_dir tb tb_all_adders16.v]
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:17:34 on Nov 21,2026
+# vlog -vlog01compat -work regression_work C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_all_adders16.v 
+# -- Compiling module tb_all_adders16
+# 
+# Top level modules:
+# 	tb_all_adders16
+# End time: 13:17:34 on Nov 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# set search_args {-L rca_lib -L ks_lib -L bk_lib -L sparse2_lib -L sparse4_lib -L sparse8_lib -L hc_lib}
+# -L rca_lib -L ks_lib -L bk_lib -L sparse2_lib -L sparse4_lib -L sparse8_lib -L hc_lib
+# if {$negative_mode} {
+#     eval vsim $search_args regression_work.tb_all_adders16 +NEGATIVE_TEST
+# } else {
+#     eval vsim $search_args regression_work.tb_all_adders16
+# }
+# vsim -c -do "do {C:\Users\Lenovo\Desktop\Tree_Adder\sim\run_all.do}" 
+# Start time: 13:17:35 on Nov 21,2026
+# Loading regression_work.tb_all_adders16
+# Loading rca_lib.rca16
+# Loading ks_lib.kogge_stone16
+# Loading bk_lib.brent_kung16
+# Loading bk_lib.bk_gray_cell
+# Loading bk_lib.bk_black_cell
+# Loading sparse2_lib.sparse2_16
+# Loading sparse4_lib.sparse4_16
+# Loading sparse8_lib.sparse8_16
+# Loading sparse8_lib.sparse8_prefix_cell
+# Loading hc_lib.han_carlson16
+# Loading hc_lib.hc_gray_cell
+# Loading ks_lib.ks_prefix_cell
+# Loading sparse2_lib.sparse2_prefix_cell
+# Loading sparse4_lib.sparse4_prefix_cell
+# Loading sparse4_lib.sparse4_local_carry_cell
+# Loading sparse8_lib.sparse8_local_carry_cell
+# Loading hc_lib.hc_black_cell
+# 
+# set expected_bindings {
+#     dut_rca rca16
+#     dut_kogge_stone kogge_stone16
+#     dut_brent_kung brent_kung16
+#     dut_sparse2 sparse2_16
+#     dut_sparse4 sparse4_16
+#     dut_sparse8 sparse8_16
+#     dut_han_carlson han_carlson16
+# }
+# 
+#     dut_rca rca16
+#     dut_kogge_stone kogge_stone16
+#     dut_brent_kung brent_kung16
+#     dut_sparse2 sparse2_16
+#     dut_sparse4 sparse4_16
+#     dut_sparse8 sparse8_16
+#     dut_han_carlson han_carlson16
+# 
+# set top_instances [find instances /tb_all_adders16/*]
+# /tb_all_adders16/dut_sparse8 (sparse8_16)
+# /tb_all_adders16/dut_sparse4 (sparse4_16)
+# /tb_all_adders16/dut_sparse2 (sparse2_16)
+# /tb_all_adders16/dut_han_carlson (han_carlson16)
+# /tb_all_adders16/dut_rca (rca16)
+# /tb_all_adders16/dut_brent_kung (brent_kung16)
+# /tb_all_adders16/dut_kogge_stone (kogge_stone16)
+# puts "REGRESSION_LIBRARY_SCHEME=one_logical_library_per_RTL"
+REGRESSION_LIBRARY_SCHEME=one_logical_library_per_RTL
+# puts "REGRESSION_INSTANCE_LIST=$top_instances"
+REGRESSION_INSTANCE_LIST={/tb_all_adders16/dut_sparse8 (sparse8_16)} {/tb_all_adders16/dut_sparse4 (sparse4_16)} {/tb_all_adders16/dut_sparse2 (sparse2_16)} {/tb_all_adders16/dut_han_carlson (han_carlson16)} {/tb_all_adders16/dut_rca (rca16)} {/tb_all_adders16/dut_brent_kung (brent_kung16)} {/tb_all_adders16/dut_kogge_stone (kogge_stone16)}
+# foreach {instance module_name} $expected_bindings {
+#     set matched 0
+#     foreach item $top_instances {
+#         if {[string match "*/$instance*" $item] && [string match "*$module_name*" $item]} {set matched 1}
+#     }
+#     puts "BINDING_CHECK instance=$instance module=$module_name matched=$matched"
+#     if {!$matched} {puts stderr "BINDING_CHECK_FAIL instance=$instance module=$module_name"; quit -code 3 -f}
+# }
+BINDING_CHECK instance=dut_rca module=rca16 matched=1
+BINDING_CHECK instance=dut_kogge_stone module=kogge_stone16 matched=1
+BINDING_CHECK instance=dut_brent_kung module=brent_kung16 matched=1
+BINDING_CHECK instance=dut_sparse2 module=sparse2_16 matched=1
+BINDING_CHECK instance=dut_sparse4 module=sparse4_16 matched=1
+BINDING_CHECK instance=dut_sparse8 module=sparse8_16 matched=1
+BINDING_CHECK instance=dut_han_carlson module=han_carlson16 matched=1
+# 
+# proc finish_status {} {
+#     set status [runStatus]
+#     set detail [runStatus -full]
+#     puts "MODELSIM_RUN_STATUS=$status"
+#     puts "MODELSIM_RUN_STATUS_FULL=$detail"
+#     if {$status ne "break" || ![string match {*simulation_stop*{$finish}*} $detail]} {
+#         puts stderr "MODELSIM_ABNORMAL_TERMINATION"; quit -code 2 -f
+#     }
+#     foreach name {directed_count random_count total_vectors total_dut_checks total_errors consistency_errors rca_error_count kogge_stone_error_count brent_kung_error_count sparse2_error_count sparse4_error_count sparse8_error_count han_carlson_error_count} {
+#         if {[catch {examine -radix decimal /tb_all_adders16/$name} value]} {
+#             puts stderr "COUNTER_READ_FAIL name=$name"; quit -code 2 -f
+#         }
+#         set counter($name) $value
+#         puts "MODELSIM_[string toupper $name]=$value"
+#     }
+#     if {$counter(directed_count) != 12 || $counter(random_count) != 10000 ||
+#         $counter(total_vectors) != 10012 || $counter(total_dut_checks) != 70084} {
+#         puts stderr "REGRESSION_COUNT_FAIL"; quit -code 4 -f
+#     }
+#     set failed [expr {$counter(total_errors) != 0 || $counter(consistency_errors) != 0}]
+#     foreach name {rca_error_count kogge_stone_error_count brent_kung_error_count sparse2_error_count sparse4_error_count sparse8_error_count han_carlson_error_count} {
+#         if {$counter($name) != 0} {set failed 1}
+#     }
+#     if {$failed} {puts "MODELSIM_EXIT_CODE=1"; quit -code 1 -f}
+#     puts "MODELSIM_EXIT_CODE=0"; quit -code 0 -f
+# }
+# 
+# onbreak {finish_status}
+# onfinish stop
+# run -all
+# ALL_ADDERS16_TEST_START negative_mode=0 seed=13579bdf
+# DIRECTED_TESTS_COMPLETE count=12
+# RANDOM_TESTS_COMPLETE count=10000
+# ALL_ADDERS_COUNTS directed_count=12 random_count=10000 total_vectors=10012 total_dut_checks=70084
+# DUT_ERRORS RCA=0 KOGGE_STONE=0 BRENT_KUNG=0 SPARSE2=0 SPARSE4=0 SPARSE8=0 HAN_CARLSON=0
+# ALL_ADDERS_RESULT total_errors=0 consistency_errors=0
+# ALL_ADDERS16_TEST_PASS
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_all_adders16.v(160)
+#    Time: 10012 ns  Iteration: 0  Instance: /tb_all_adders16
+# Break in Module tb_all_adders16 at C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_all_adders16.v line 160
+MODELSIM_RUN_STATUS=break
+MODELSIM_RUN_STATUS_FULL=break simulation_stop {$finish}
+MODELSIM_DIRECTED_COUNT=12
+MODELSIM_RANDOM_COUNT=10000
+MODELSIM_TOTAL_VECTORS=10012
+MODELSIM_TOTAL_DUT_CHECKS=70084
+MODELSIM_TOTAL_ERRORS=0
+MODELSIM_CONSISTENCY_ERRORS=0
+MODELSIM_RCA_ERROR_COUNT=0
+MODELSIM_KOGGE_STONE_ERROR_COUNT=0
+MODELSIM_BRENT_KUNG_ERROR_COUNT=0
+MODELSIM_SPARSE2_ERROR_COUNT=0
+MODELSIM_SPARSE4_ERROR_COUNT=0
+MODELSIM_SPARSE8_ERROR_COUNT=0
+MODELSIM_HAN_CARLSON_ERROR_COUNT=0
+MODELSIM_EXIT_CODE=0
+# End time: 13:17:36 on Nov 21,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

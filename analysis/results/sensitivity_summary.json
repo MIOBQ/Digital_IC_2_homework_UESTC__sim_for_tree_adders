@@ -1,0 +1,194 @@
+{
+  "baseline_reproduced": true,
+  "baseline_gate_counts": {
+    "RCA": 77,
+    "Kogge-Stone": 179,
+    "Brent-Kung": 110,
+    "Sparse-2": 128,
+    "Sparse-4": 113,
+    "Sparse-8": 112,
+    "Han-Carlson": 128
+  },
+  "baseline_delays": {
+    "RCA": 32.0,
+    "Kogge-Stone": 11.0,
+    "Brent-Kung": 16.0,
+    "Sparse-2": 13.0,
+    "Sparse-4": 17.0,
+    "Sparse-8": 24.0,
+    "Han-Carlson": 13.0
+  },
+  "single_parameter_records": 126,
+  "grid_combinations": 80,
+  "grid_records": 560,
+  "repeatability_check": "pass",
+  "ranking_statistics": {
+    "RCA": {
+      "rank1_count": 0,
+      "rank1_proportion": 0.0,
+      "average_rank": 7.0,
+      "min_delay": 23.5,
+      "max_delay": 48.0,
+      "max_absolute_change": 16.0,
+      "max_absolute_change_percent": 50.0,
+      "endpoint_switch_count": 44,
+      "path_switch_count": 44,
+      "critical_endpoints_seen": [
+        "SUM[15]",
+        "SUM[16]"
+      ],
+      "unique_selected_paths": 3
+    },
+    "Kogge-Stone": {
+      "rank1_count": 80,
+      "rank1_proportion": 1.0,
+      "average_rank": 1.0,
+      "min_delay": 7.25,
+      "max_delay": 16.5,
+      "max_absolute_change": 5.5,
+      "max_absolute_change_percent": 50.0,
+      "endpoint_switch_count": 33,
+      "path_switch_count": 33,
+      "critical_endpoints_seen": [
+        "SUM[15]",
+        "SUM[16]",
+        "SUM[9]"
+      ],
+      "unique_selected_paths": 3
+    },
+    "Brent-Kung": {
+      "rank1_count": 0,
+      "rank1_proportion": 0.0,
+      "average_rank": 4.0,
+      "min_delay": 11.0,
+      "max_delay": 24.0,
+      "max_absolute_change": 8.0,
+      "max_absolute_change_percent": 50.0,
+      "endpoint_switch_count": 0,
+      "path_switch_count": 8,
+      "critical_endpoints_seen": [
+        "SUM[15]"
+      ],
+      "unique_selected_paths": 2
+    },
+    "Sparse-2": {
+      "rank1_count": 0,
+      "rank1_proportion": 0.0,
+      "average_rank": 2.0,
+      "min_delay": 8.75,
+      "max_delay": 19.5,
+      "max_absolute_change": 6.5,
+      "max_absolute_change_percent": 50.0,
+      "endpoint_switch_count": 0,
+      "path_switch_count": 8,
+      "critical_endpoints_seen": [
+        "SUM[11]"
+      ],
+      "unique_selected_paths": 2
+    },
+    "Sparse-4": {
+      "rank1_count": 0,
+      "rank1_proportion": 0.0,
+      "average_rank": 5.0,
+      "min_delay": 11.75,
+      "max_delay": 25.5,
+      "max_absolute_change": 8.5,
+      "max_absolute_change_percent": 50.0,
+      "endpoint_switch_count": 0,
+      "path_switch_count": 8,
+      "critical_endpoints_seen": [
+        "SUM[15]"
+      ],
+      "unique_selected_paths": 2
+    },
+    "Sparse-8": {
+      "rank1_count": 0,
+      "rank1_proportion": 0.0,
+      "average_rank": 6.0,
+      "min_delay": 17.0,
+      "max_delay": 36.0,
+      "max_absolute_change": 12.0,
+      "max_absolute_change_percent": 50.0,
+      "endpoint_switch_count": 0,
+      "path_switch_count": 8,
+      "critical_endpoints_seen": [
+        "SUM[15]"
+      ],
+      "unique_selected_paths": 2
+    },
+    "Han-Carlson": {
+      "rank1_count": 0,
+      "rank1_proportion": 0.0,
+      "average_rank": 2.0,
+      "min_delay": 8.75,
+      "max_delay": 19.5,
+      "max_absolute_change": 6.5,
+      "max_absolute_change_percent": 50.0,
+      "endpoint_switch_count": 0,
+      "path_switch_count": 8,
+      "critical_endpoints_seen": [
+        "SUM[11]"
+      ],
+      "unique_selected_paths": 2
+    }
+  },
+  "pairwise_order_reversals": {
+    "Kogge-Stone vs Han-Carlson": {
+      "relations_seen": [
+        -1
+      ],
+      "strict_order_reversal": false
+    },
+    "Kogge-Stone vs Brent-Kung": {
+      "relations_seen": [
+        -1
+      ],
+      "strict_order_reversal": false
+    },
+    "Brent-Kung vs Sparse-4": {
+      "relations_seen": [
+        -1
+      ],
+      "strict_order_reversal": false
+    },
+    "Sparse-2 vs Han-Carlson": {
+      "relations_seen": [
+        0
+      ],
+      "strict_order_reversal": false
+    },
+    "Sparse-4 vs Sparse-8": {
+      "relations_seen": [
+        -1
+      ],
+      "strict_order_reversal": false
+    }
+  },
+  "sparse2_han_carlson_full_curves_equal_single": true,
+  "sparse2_han_carlson_full_curves_equal_grid": true,
+  "baseline_pareto_front": [
+    "Brent-Kung",
+    "Han-Carlson",
+    "Kogge-Stone",
+    "RCA",
+    "Sparse-2"
+  ],
+  "pareto_front_counts": {
+    "RCA": 80,
+    "Kogge-Stone": 80,
+    "Brent-Kung": 80,
+    "Sparse-2": 80,
+    "Sparse-4": 0,
+    "Sparse-8": 0,
+    "Han-Carlson": 80
+  },
+  "distinct_grid_pareto_fronts": [
+    [
+      "Brent-Kung",
+      "Han-Carlson",
+      "Kogge-Stone",
+      "RCA",
+      "Sparse-2"
+    ]
+  ]
+}

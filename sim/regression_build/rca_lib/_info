@@ -1,0 +1,30 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Lenovo/Desktop/Tree_Adder/sim
+vrca16
+!s110 1795238254
+!i10b 1
+!s100 Q;QoV?H_Adf?]ZUAkBTGX2
+I>4l_FN2TRC[>BP2I=o>Se3
+V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1795232589
+8C:/Users/Lenovo/Desktop/Tree_Adder/rtl/rca16.v
+FC:/Users/Lenovo/Desktop/Tree_Adder/rtl/rca16.v
+L0 5
+OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1795238254.028000
+!s107 C:/Users/Lenovo/Desktop/Tree_Adder/rtl/rca16.v|
+!s90 -vlog01compat|-work|rca_lib|C:/Users/Lenovo/Desktop/Tree_Adder/rtl/rca16.v|
+!i113 1
+o-vlog01compat -work rca_lib

@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Lenovo/Desktop/Tree_Adder/sim
+vhan_carlson16
+Z1 !s110 1795237757
+!i10b 1
+!s100 UcEQNKKal@TK9^Wj;cLUj3
+In1YdBAh:=_654c?SMFaOI2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1795237726
+Z4 8C:/Users/Lenovo/Desktop/Tree_Adder/rtl/han_carlson16.v
+Z5 FC:/Users/Lenovo/Desktop/Tree_Adder/rtl/han_carlson16.v
+L0 21
+Z6 OV;L;10.3c;59
+r1
+!s85 0
+31
+Z7 !s108 1795237757.676000
+Z8 !s107 C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_han_carlson16.v|C:/Users/Lenovo/Desktop/Tree_Adder/rtl/han_carlson16.v|
+Z9 !s90 -vlog01compat|C:/Users/Lenovo/Desktop/Tree_Adder/rtl/han_carlson16.v|C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_han_carlson16.v|
+!i113 1
+Z10 o-vlog01compat
+vhc_black_cell
+R1
+!i10b 1
+!s100 G2VN1FZIa;C6XkIILj4U32
+IZVCVPFfCR`QOADi;mNCnU1
+R2
+R0
+R3
+R4
+R5
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vhc_gray_cell
+R1
+!i10b 1
+!s100 P<IMmSKTPJU]SQHJCRJ2k1
+Ib:^A<h[9PakQ:6be?HL[R0
+R2
+R0
+R3
+R4
+R5
+L0 13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vtb_han_carlson16
+R1
+!i10b 1
+!s100 _:Ed]8l:IPRFI5Q>e^[461
+Io=8aL_nllY^3@X[eg9ac31
+R2
+R0
+R3
+8C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_han_carlson16.v
+FC:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_han_carlson16.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

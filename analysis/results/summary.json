@@ -1,0 +1,310 @@
+{
+  "configuration": {
+    "gate_delays": {
+      "AND": 1,
+      "OR": 1,
+      "XOR": 2
+    },
+    "gate_areas": {
+      "AND": 1.0,
+      "OR": 1.0,
+      "XOR": 1.5
+    },
+    "random_seed": 324508639,
+    "random_tests": 10000
+  },
+  "random_sequence": "Python random.Random; not Verilog $random",
+  "validation": {
+    "RCA": {
+      "directed": 12,
+      "random": 10000,
+      "total": 10012,
+      "errors": [],
+      "structural": {
+        "all_outputs": true,
+        "acyclic": true,
+        "valid_gates": true,
+        "traceable": true,
+        "shared_nodes": true
+      }
+    },
+    "Kogge-Stone": {
+      "directed": 12,
+      "random": 10000,
+      "total": 10012,
+      "errors": [],
+      "structural": {
+        "all_outputs": true,
+        "acyclic": true,
+        "valid_gates": true,
+        "traceable": true,
+        "shared_nodes": true
+      }
+    },
+    "Brent-Kung": {
+      "directed": 12,
+      "random": 10000,
+      "total": 10012,
+      "errors": [],
+      "structural": {
+        "all_outputs": true,
+        "acyclic": true,
+        "valid_gates": true,
+        "traceable": true,
+        "shared_nodes": true
+      }
+    },
+    "Sparse-2": {
+      "directed": 12,
+      "random": 10000,
+      "total": 10012,
+      "errors": [],
+      "structural": {
+        "all_outputs": true,
+        "acyclic": true,
+        "valid_gates": true,
+        "traceable": true,
+        "shared_nodes": true
+      }
+    },
+    "Sparse-4": {
+      "directed": 12,
+      "random": 10000,
+      "total": 10012,
+      "errors": [],
+      "structural": {
+        "all_outputs": true,
+        "acyclic": true,
+        "valid_gates": true,
+        "traceable": true,
+        "shared_nodes": true
+      }
+    },
+    "Sparse-8": {
+      "directed": 12,
+      "random": 10000,
+      "total": 10012,
+      "errors": [],
+      "structural": {
+        "all_outputs": true,
+        "acyclic": true,
+        "valid_gates": true,
+        "traceable": true,
+        "shared_nodes": true
+      }
+    },
+    "Han-Carlson": {
+      "directed": 12,
+      "random": 10000,
+      "total": 10012,
+      "errors": [],
+      "structural": {
+        "all_outputs": true,
+        "acyclic": true,
+        "valid_gates": true,
+        "traceable": true,
+        "shared_nodes": true
+      }
+    }
+  },
+  "gate_counts": [
+    {
+      "adder": "RCA",
+      "and_before": 32,
+      "or_before": 16,
+      "xor_before": 32,
+      "total_before": 80,
+      "and_optimized": 32,
+      "or_optimized": 16,
+      "xor_optimized": 32,
+      "total_optimized": 80,
+      "assumed_area_before": 96.0,
+      "assumed_area_optimized": 96.0,
+      "black_cells": 0,
+      "gray_cells": 0,
+      "prefix_cells": 0,
+      "local_carry_cells": 16
+    },
+    {
+      "adder": "Kogge-Stone",
+      "and_before": 114,
+      "or_before": 49,
+      "xor_before": 32,
+      "total_before": 195,
+      "and_optimized": 99,
+      "or_optimized": 49,
+      "xor_optimized": 32,
+      "total_optimized": 180,
+      "assumed_area_before": 211.0,
+      "assumed_area_optimized": 196.0,
+      "black_cells": 49,
+      "gray_cells": 0,
+      "prefix_cells": 49,
+      "local_carry_cells": 0
+    },
+    {
+      "adder": "Brent-Kung",
+      "and_before": 53,
+      "or_before": 26,
+      "xor_before": 32,
+      "total_before": 111,
+      "and_optimized": 53,
+      "or_optimized": 26,
+      "xor_optimized": 32,
+      "total_optimized": 111,
+      "assumed_area_before": 127.0,
+      "assumed_area_optimized": 127.0,
+      "black_cells": 11,
+      "gray_cells": 15,
+      "prefix_cells": 26,
+      "local_carry_cells": 0
+    },
+    {
+      "adder": "Sparse-2",
+      "and_before": 74,
+      "or_before": 33,
+      "xor_before": 32,
+      "total_before": 139,
+      "and_optimized": 66,
+      "or_optimized": 33,
+      "xor_optimized": 32,
+      "total_optimized": 131,
+      "assumed_area_before": 155.0,
+      "assumed_area_optimized": 147.0,
+      "black_cells": 25,
+      "gray_cells": 0,
+      "prefix_cells": 25,
+      "local_carry_cells": 8
+    },
+    {
+      "adder": "Sparse-4",
+      "and_before": 62,
+      "or_before": 29,
+      "xor_before": 32,
+      "total_before": 123,
+      "and_optimized": 57,
+      "or_optimized": 29,
+      "xor_optimized": 32,
+      "total_optimized": 118,
+      "assumed_area_before": 139.0,
+      "assumed_area_optimized": 134.0,
+      "black_cells": 17,
+      "gray_cells": 0,
+      "prefix_cells": 17,
+      "local_carry_cells": 12
+    },
+    {
+      "adder": "Sparse-8",
+      "and_before": 60,
+      "or_before": 29,
+      "xor_before": 32,
+      "total_before": 121,
+      "and_optimized": 56,
+      "or_optimized": 29,
+      "xor_optimized": 32,
+      "total_optimized": 117,
+      "assumed_area_before": 137.0,
+      "assumed_area_optimized": 133.0,
+      "black_cells": 15,
+      "gray_cells": 0,
+      "prefix_cells": 15,
+      "local_carry_cells": 14
+    },
+    {
+      "adder": "Han-Carlson",
+      "and_before": 65,
+      "or_before": 32,
+      "xor_before": 32,
+      "total_before": 129,
+      "and_optimized": 65,
+      "or_optimized": 32,
+      "xor_optimized": 32,
+      "total_optimized": 129,
+      "assumed_area_before": 145.0,
+      "assumed_area_optimized": 145.0,
+      "black_cells": 17,
+      "gray_cells": 15,
+      "prefix_cells": 32,
+      "local_carry_cells": 0
+    }
+  ],
+  "critical_paths": [
+    {
+      "adder": "RCA",
+      "max_delay": 34.0,
+      "endpoint": "SUM[15]",
+      "source": "A[0]",
+      "and_gates": 15,
+      "or_gates": 15,
+      "xor_gates": 2,
+      "gate_count": 32,
+      "node_sequence": "P0[0] -> rca.stage0.and_c -> rca.stage0.C -> rca.stage1.and_c -> rca.stage1.C -> rca.stage2.and_c -> rca.stage2.C -> rca.stage3.and_c -> rca.stage3.C -> rca.stage4.and_c -> rca.stage4.C -> rca.stage5.and_c -> rca.stage5.C -> rca.stage6.and_c -> rca.stage6.C -> rca.stage7.and_c -> rca.stage7.C -> rca.stage8.and_c -> rca.stage8.C -> rca.stage9.and_c -> rca.stage9.C -> rca.stage10.and_c -> rca.stage10.C -> rca.stage11.and_c -> rca.stage11.C -> rca.stage12.and_c -> rca.stage12.C -> rca.stage13.and_c -> rca.stage13.C -> rca.stage14.and_c -> rca.stage14.C -> SUM[15].xor"
+    },
+    {
+      "adder": "Kogge-Stone",
+      "max_delay": 11.0,
+      "endpoint": "SUM[9]",
+      "source": "A[2]",
+      "and_gates": 3,
+      "or_gates": 4,
+      "xor_gates": 2,
+      "gate_count": 9,
+      "node_sequence": "P0[2] -> ks.s1.n2.and_g -> ks.s1.n2.G -> ks.s2.n4.and_g -> ks.s2.n4.G -> ks.s3.n8.and_g -> ks.s3.n8.G -> ks.s4.n8.G -> SUM[9].xor"
+    },
+    {
+      "adder": "Brent-Kung",
+      "max_delay": 16.0,
+      "endpoint": "SUM[15]",
+      "source": "A[1]",
+      "and_gates": 6,
+      "or_gates": 6,
+      "xor_gates": 2,
+      "gate_count": 14,
+      "node_sequence": "P0[1] -> bk.u1_0.and_g -> bk.u1_0.G -> bk.u3_0.and_g -> bk.u3_0.G -> bk.u7_0.and_g -> bk.u7_0.G -> bk.u11_0.and_g -> bk.u11_0.G -> bk.u13_0.and_g -> bk.u13_0.G -> bk.u14_0.and_g -> bk.u14_0.G -> SUM[15].xor"
+    },
+    {
+      "adder": "Sparse-2",
+      "max_delay": 13.0,
+      "endpoint": "SUM[11]",
+      "source": "A[3]",
+      "and_gates": 4,
+      "or_gates": 5,
+      "xor_gates": 2,
+      "gate_count": 11,
+      "node_sequence": "P0[3] -> sparse2.group1.l1.n0.and_g -> sparse2.group1.l1.n0.G -> sparse2.ks1.n2.and_g -> sparse2.ks1.n2.G -> sparse2.ks2.n4.and_g -> sparse2.ks2.n4.G -> sparse2.ks3.n4.G -> sparse2.local.g5.c1.and_c -> sparse2.local.g5.c1.C -> SUM[11].xor"
+    },
+    {
+      "adder": "Sparse-4",
+      "max_delay": 17.0,
+      "endpoint": "SUM[15]",
+      "source": "A[5]",
+      "and_gates": 6,
+      "or_gates": 7,
+      "xor_gates": 2,
+      "gate_count": 15,
+      "node_sequence": "P0[5] -> sparse4.group1.l1.n0.and_g -> sparse4.group1.l1.n0.G -> sparse4.group1.l2.n0.and_g -> sparse4.group1.l2.n0.G -> sparse4.ks1.n2.and_g -> sparse4.ks1.n2.G -> sparse4.ks2.n2.G -> sparse4.local.g3.c1.and_c -> sparse4.local.g3.c1.C -> sparse4.local.g3.c2.and_c -> sparse4.local.g3.c2.C -> sparse4.local.g3.c3.and_c -> sparse4.local.g3.c3.C -> SUM[15].xor"
+    },
+    {
+      "adder": "Sparse-8",
+      "max_delay": 24.0,
+      "endpoint": "SUM[15]",
+      "source": "A[1]",
+      "and_gates": 10,
+      "or_gates": 10,
+      "xor_gates": 2,
+      "gate_count": 22,
+      "node_sequence": "P0[1] -> sparse8.group0.l1.n0.and_g -> sparse8.group0.l1.n0.G -> sparse8.group0.l2.n0.and_g -> sparse8.group0.l2.n0.G -> sparse8.group0.l3.n0.and_g -> sparse8.group0.l3.n0.G -> sparse8.local.g1.c1.and_c -> sparse8.local.g1.c1.C -> sparse8.local.g1.c2.and_c -> sparse8.local.g1.c2.C -> sparse8.local.g1.c3.and_c -> sparse8.local.g1.c3.C -> sparse8.local.g1.c4.and_c -> sparse8.local.g1.c4.C -> sparse8.local.g1.c5.and_c -> sparse8.local.g1.c5.C -> sparse8.local.g1.c6.and_c -> sparse8.local.g1.c6.C -> sparse8.local.g1.c7.and_c -> sparse8.local.g1.c7.C -> SUM[15].xor"
+    },
+    {
+      "adder": "Han-Carlson",
+      "max_delay": 13.0,
+      "endpoint": "SUM[11]",
+      "source": "A[3]",
+      "and_gates": 4,
+      "or_gates": 5,
+      "xor_gates": 2,
+      "gate_count": 11,
+      "node_sequence": "P0[3] -> hc.s1.n1.and_g -> hc.s1.n1.G -> hc.s2.n2.and_g -> hc.s2.n2.G -> hc.s3.n4.and_g -> hc.s3.n4.G -> hc.s4.n4.G -> hc.s5.c11.and_g -> hc.s5.c11.G -> SUM[11].xor"
+    }
+  ]
+}

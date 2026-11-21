@@ -1,0 +1,8 @@
+adder,and_gates,or_gates,xor_gates,total_gates,prefix_cells_rtl,local_carry_cells_rtl
+RCA,31,15,31,77,0,16
+Kogge-Stone,99,49,31,179,49,0
+Brent-Kung,53,26,31,110,26,0
+Sparse-2,65,32,31,128,25,8
+Sparse-4,55,27,31,113,17,12
+Sparse-8,54,27,31,112,15,14
+Han-Carlson,65,32,31,128,32,0

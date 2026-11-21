@@ -1,0 +1,56 @@
+# 
+# if {[file isdirectory $work_dir]} {
+#     vdel -lib $work_dir -all
+# }
+# vlib $work_dir
+# vmap work $work_dir
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work C:/Users/Lenovo/Desktop/Tree_Adder/sim/work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat $rtl_file $tb_file
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 11:53:01 on Nov 21,2026
+# vlog -vlog01compat C:/Users/Lenovo/Desktop/Tree_Adder/rtl/rca16.v C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_rca16.v 
+# -- Compiling module rca16
+# -- Compiling module tb_rca16
+# 
+# Top level modules:
+# 	tb_rca16
+# End time: 11:53:01 on Nov 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim work.tb_rca16
+# vsim -c -do "do {C:\Users\Lenovo\Desktop\Tree_Adder\sim\run_rca.do}" 
+# Start time: 11:53:02 on Nov 21,2026
+# Loading work.tb_rca16
+# Loading work.rca16
+# 
+# proc finish_with_test_status {} {
+#     set error_count [examine -radix decimal /tb_rca16/error_count]
+#     puts "MODELSIM_ERROR_COUNT=$error_count"
+# 
+#     if {$error_count == 0} {
+#         set exit_code 0
+#         puts "MODELSIM_EXIT_CODE=0"
+#     } else {
+#         set exit_code 1
+#         puts "MODELSIM_EXIT_CODE=1"
+#     }
+# 
+#     quit -code $exit_code -f
+# }
+# 
+# onbreak {finish_with_test_status}
+# onfinish stop
+# run -all
+# RCA16_TEST_START
+# DIRECTED_TESTS_COMPLETE count=12 errors=0
+# RANDOM_TESTS_COMPLETE count=10000
+# RCA16_TEST_SUMMARY total=10012 errors=0
+# RCA16_TEST_PASS
+# ** Note: $finish    : C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_rca16.v(81)
+#    Time: 10012 ns  Iteration: 0  Instance: /tb_rca16
+# Break in Module tb_rca16 at C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_rca16.v line 81
+# End time: 11:53:03 on Nov 21,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

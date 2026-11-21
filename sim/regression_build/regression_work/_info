@@ -1,0 +1,30 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Lenovo/Desktop/Tree_Adder/sim
+vtb_all_adders16
+!s110 1795238254
+!i10b 1
+!s100 >@fWnkV83WFS1MCbhPM]m0
+IdOSDR_<aPSMC>ezG`=OP:2
+V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1795238216
+8C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_all_adders16.v
+FC:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_all_adders16.v
+L0 3
+OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1795238254.874000
+!s107 C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_all_adders16.v|
+!s90 -vlog01compat|-work|regression_work|C:/Users/Lenovo/Desktop/Tree_Adder/tb/tb_all_adders16.v|
+!i113 1
+o-vlog01compat -work regression_work

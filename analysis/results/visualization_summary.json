@@ -1,0 +1,205 @@
+{
+  "source_files": [
+    "constant_fold_gate_counts.csv",
+    "constant_fold_critical_paths.csv",
+    "gate_counts.csv",
+    "sensitivity_single_parameter.csv",
+    "sensitivity_grid.csv",
+    "sensitivity_rankings.csv",
+    "sensitivity_pareto.csv",
+    "sensitivity_summary.json"
+  ],
+  "validation": {
+    "baseline_match": true,
+    "single_records": 126,
+    "grid_records": 560,
+    "pareto_records": 567
+  },
+  "baseline_pareto_front": [
+    "RCA",
+    "Kogge-Stone",
+    "Brent-Kung",
+    "Sparse-2",
+    "Han-Carlson"
+  ],
+  "figure_qa": [
+    {
+      "figure": "fig3_1_gate_counts",
+      "png_width": 3132,
+      "png_height": 1877,
+      "png_variance": 4635.820777559389,
+      "png_bytes": 137962,
+      "svg_bytes": 62527
+    },
+    {
+      "figure": "fig3_2_delay_comparison",
+      "png_width": 3132,
+      "png_height": 1877,
+      "png_variance": 3540.5454407572083,
+      "png_bytes": 139482,
+      "svg_bytes": 60494
+    },
+    {
+      "figure": "fig3_3_structure_counts",
+      "png_width": 3222,
+      "png_height": 1936,
+      "png_variance": 3088.174446296593,
+      "png_bytes": 150294,
+      "svg_bytes": 69881
+    },
+    {
+      "figure": "fig3_4_pareto",
+      "png_width": 2802,
+      "png_height": 1996,
+      "png_variance": 806.3439981303097,
+      "png_bytes": 208861,
+      "svg_bytes": 63222
+    },
+    {
+      "figure": "fig3_5a_xor_sensitivity",
+      "png_width": 3042,
+      "png_height": 1996,
+      "png_variance": 980.1077908572736,
+      "png_bytes": 260480,
+      "svg_bytes": 65561
+    },
+    {
+      "figure": "fig3_5b_and_sensitivity",
+      "png_width": 3042,
+      "png_height": 1996,
+      "png_variance": 1003.1828027992188,
+      "png_bytes": 278660,
+      "svg_bytes": 67300
+    },
+    {
+      "figure": "fig3_5c_or_sensitivity",
+      "png_width": 3042,
+      "png_height": 1996,
+      "png_variance": 988.4159090282816,
+      "png_bytes": 285867,
+      "svg_bytes": 67801
+    },
+    {
+      "figure": "fig3_6_ranking_stability",
+      "png_width": 2832,
+      "png_height": 1877,
+      "png_variance": 3336.7696942135126,
+      "png_bytes": 135888,
+      "svg_bytes": 62597
+    }
+  ],
+  "structures": [
+    {
+      "adder": "RCA",
+      "and_gates": "31",
+      "or_gates": "15",
+      "xor_gates": "31",
+      "total_gates": 77,
+      "baseline_max_delay": 32.0,
+      "black_cells": "0",
+      "gray_cells": "0",
+      "prefix_cells": "0",
+      "local_carry_cells": "16",
+      "average_rank": 7.0,
+      "rank1_count": 0,
+      "pareto_optimal": true,
+      "dominated_by": ""
+    },
+    {
+      "adder": "Kogge-Stone",
+      "and_gates": "99",
+      "or_gates": "49",
+      "xor_gates": "31",
+      "total_gates": 179,
+      "baseline_max_delay": 11.0,
+      "black_cells": "49",
+      "gray_cells": "0",
+      "prefix_cells": "49",
+      "local_carry_cells": "0",
+      "average_rank": 1.0,
+      "rank1_count": 80,
+      "pareto_optimal": true,
+      "dominated_by": ""
+    },
+    {
+      "adder": "Brent-Kung",
+      "and_gates": "53",
+      "or_gates": "26",
+      "xor_gates": "31",
+      "total_gates": 110,
+      "baseline_max_delay": 16.0,
+      "black_cells": "11",
+      "gray_cells": "15",
+      "prefix_cells": "26",
+      "local_carry_cells": "0",
+      "average_rank": 4.0,
+      "rank1_count": 0,
+      "pareto_optimal": true,
+      "dominated_by": ""
+    },
+    {
+      "adder": "Sparse-2",
+      "and_gates": "65",
+      "or_gates": "32",
+      "xor_gates": "31",
+      "total_gates": 128,
+      "baseline_max_delay": 13.0,
+      "black_cells": "25",
+      "gray_cells": "0",
+      "prefix_cells": "25",
+      "local_carry_cells": "8",
+      "average_rank": 2.0,
+      "rank1_count": 0,
+      "pareto_optimal": true,
+      "dominated_by": ""
+    },
+    {
+      "adder": "Sparse-4",
+      "and_gates": "55",
+      "or_gates": "27",
+      "xor_gates": "31",
+      "total_gates": 113,
+      "baseline_max_delay": 17.0,
+      "black_cells": "17",
+      "gray_cells": "0",
+      "prefix_cells": "17",
+      "local_carry_cells": "12",
+      "average_rank": 5.0,
+      "rank1_count": 0,
+      "pareto_optimal": false,
+      "dominated_by": "Brent-Kung"
+    },
+    {
+      "adder": "Sparse-8",
+      "and_gates": "54",
+      "or_gates": "27",
+      "xor_gates": "31",
+      "total_gates": 112,
+      "baseline_max_delay": 24.0,
+      "black_cells": "15",
+      "gray_cells": "0",
+      "prefix_cells": "15",
+      "local_carry_cells": "14",
+      "average_rank": 6.0,
+      "rank1_count": 0,
+      "pareto_optimal": false,
+      "dominated_by": "Brent-Kung"
+    },
+    {
+      "adder": "Han-Carlson",
+      "and_gates": "65",
+      "or_gates": "32",
+      "xor_gates": "31",
+      "total_gates": 128,
+      "baseline_max_delay": 13.0,
+      "black_cells": "17",
+      "gray_cells": "15",
+      "prefix_cells": "32",
+      "local_carry_cells": "0",
+      "average_rank": 2.0,
+      "rank1_count": 0,
+      "pareto_optimal": true,
+      "dominated_by": ""
+    }
+  ]
+}
